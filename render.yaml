@@ -1,0 +1,5 @@
+services:
+  - type: worker
+    name: telegram-bot
+    runtime: python
+    startCommand: python bot.py
